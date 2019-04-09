@@ -1,6 +1,6 @@
 package com.educ_nc_spring_19.educ_nc_spring_19_common.common.dto;
 
-import com.educ_nc_spring_19.educ_nc_spring_19_common.common.CreatedUpdatedDateByUser;
+import com.educ_nc_spring_19.educ_nc_spring_19_common.common.Audit;
 import com.fasterxml.jackson.annotation.JsonUnwrapped;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -20,5 +20,5 @@ public class TeamDTO {
     private UUID stageId;
     private List<StudentDTO> students;
     @JsonUnwrapped
-    private CreatedUpdatedDateByUser createdUpdatedDateByUser;
+    private Audit audit;
 }

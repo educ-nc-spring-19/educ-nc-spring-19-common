@@ -14,7 +14,7 @@ import java.util.UUID;
 @AllArgsConstructor
 
 @Embeddable
-public class CreatedUpdatedDateByUser {
+public class Audit {
 
     @Column(columnDefinition = "timestamp with time zone")
     private OffsetDateTime createdDate;
