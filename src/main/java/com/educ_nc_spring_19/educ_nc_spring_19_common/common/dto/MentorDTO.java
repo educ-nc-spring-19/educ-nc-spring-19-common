@@ -20,7 +20,9 @@ public class MentorDTO {
     private String description;
     private UUID userId;
     private UUID directionId;
+    private String extDirectionId;
     private String acronym;
+    private String deptName;
     private String externalId;
     @JsonUnwrapped
     private Audit audit;

@@ -19,13 +19,16 @@ public class StudentDTO {
     private String phoneNumber;
     private UUID userId;
     private UUID directionId;
+    private String extDirectionId;
     private UUID subdirectionId;
+    private String extSubdirectionId;
     private String externalId;
     private Integer yearOfStudy;
     private Integer semester;
     private String techComment;
     private String hrComment;
     private UUID interviewerId;
+    private String extInterviewerId;
     @JsonUnwrapped
     private Audit audit;
 }
