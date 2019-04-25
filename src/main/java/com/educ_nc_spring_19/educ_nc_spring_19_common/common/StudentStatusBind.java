@@ -17,7 +17,7 @@ import java.util.UUID;
 
 @Embeddable
 public class StudentStatusBind {
-    @Column(name = "student_id", nullable = false)
+    @Column(name = "student_id", unique = true, nullable = false)
     private UUID id;
 
     @Enumerated(EnumType.STRING)

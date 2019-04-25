@@ -6,6 +6,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.Set;
 import java.util.UUID;
 
 @Data
@@ -15,6 +16,8 @@ public class CauldronDTO {
     private UUID id;
     private String name;
     private String description;
+    private Set<UUID> mentors;
+    private Set<UUID> students;
     @JsonUnwrapped
     private Audit audit;
 }

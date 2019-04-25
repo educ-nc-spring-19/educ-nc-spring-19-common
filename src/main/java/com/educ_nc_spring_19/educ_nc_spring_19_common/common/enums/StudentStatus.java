@@ -4,5 +4,6 @@ public enum StudentStatus {
     SELECTED,
     INVITED,
     ACCEPTED,
-    REJECTED
+    REJECTED,
+    EXPELLED
 }
