@@ -14,6 +14,6 @@
    <dependency>
        <groupId>com.educ-nc-spring-19</groupId>
        <artifactId>educ-nc-spring-19-common</artifactId>
-       <version>0.1.5-SNAPSHOT</version>
+       <version>0.1.6-SNAPSHOT</version>
    </dependency>
    ```
